@@ -68,4 +68,4 @@ for (exposure in exposures) {
     #print(p1)
     # dev.off()
   }
-}
+} 
