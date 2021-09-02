@@ -11,7 +11,7 @@ cancer_ids = c(
                'ieu-a-298', 
                'finn-a-AD')
 
-#'prot-a-1736', #leukemia
+#'prot-a-1736', #leukemia 
 #'prot-a-235',
 #'prot-a-1130',
 #'prot-a-1737',
