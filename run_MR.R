@@ -12,7 +12,7 @@ load("./store/rf.rdata")
 outcomes = c('ukb-d-C_LYMPHOMA') 
 exposures = c('ieu-a-271')
 
-
+ 
 for (exposure in exposures) {
   for (outcome in outcomes) {
     print(paste(outcome, exposure))
