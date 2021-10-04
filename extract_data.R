@@ -5,7 +5,7 @@ cancer_ids = c(
                'ieu-b-7',
                'ukb-b-6548',
                'ieu-a-818', 
-               'finn-a-G6_PARKINSON_EXMORE', 
+               'finn-a-G6_PARKINSON_EXMORE',  
                'ieu-a-824', #Alzheimers
                'ieu-a-297',
                'ieu-a-298', 
