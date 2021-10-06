@@ -4,7 +4,7 @@ library(car)
 
 # Example of body mass index on coronary heart disease
 # Extract and harmonise data
-a <- extract_instruments(2)
+a <- extract_instruments(2) 
 b <- extract_outcome_data(a$SNP, 7)
 dat <- harmonise_data(a,b)
 
