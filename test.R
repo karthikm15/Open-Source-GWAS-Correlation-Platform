@@ -9,7 +9,7 @@ b <- extract_outcome_data(a$SNP, 7)
 dat <- harmonise_data(a,b)
 
 # Apply all MR methods
-r <- mr_wrapper(dat)
+r <- mr_wrapper(dat) 
 
 # Load the rf object containing the trained models
 load("rf.rdata")
