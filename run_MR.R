@@ -26,7 +26,7 @@ for (exposure in exposures) {
       print("HERE")
       variants_outcome = extract_outcome_data(variants_exposure$SNP, outcome)
       if (is.null(variants_outcome)){
-        next
+        next 
       }
       variants_harmonised = harmonise_data(variants_exposure, variants_outcome)
       # write.csv(variants_harmonised, file=paste0('RES_MOE/', exposure,"_", outcome, "_harmonised.csv"), row.names=F)
