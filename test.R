@@ -7,7 +7,7 @@ library(car)
 a <- extract_instruments(2) 
 b <- extract_outcome_data(a$SNP, 7)
 dat <- harmonise_data(a,b)
-
+ 
 # Apply all MR methods
 r <- mr_wrapper(dat) 
 
