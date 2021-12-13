@@ -30,7 +30,7 @@ for (exposure in exposures) {
       }
       variants_harmonised = harmonise_data(variants_exposure, variants_outcome)
       # write.csv(variants_harmonised, file=paste0('RES_MOE/', exposure,"_", outcome, "_harmonised.csv"), row.names=F)
-    }
+    } 
     if (nrow(variants_harmonised) == 0 || (is.null(variants_harmonised))){
       next
     }
