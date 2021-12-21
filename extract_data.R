@@ -9,7 +9,7 @@ cancer_ids = c(
                'ieu-a-824', #Alzheimers 
                'ieu-a-297',
                'ieu-a-298', 
-               'finn-a-AD')
+               'finn-a-AD') 
 
 #'prot-a-1736', #leukemia 
 #'prot-a-235',
