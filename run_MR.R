@@ -3,7 +3,7 @@ library(dplyr)
 setwd('/Users/adityamittal/Documents/FocusHackathon/')
 getwd()
 ao = available_outcomes()
-# Load the downloaded RData object. This loads the underlying rf object  
+# Load the downloaded RData object. This loads the underlying rf object   
 load("./store/rf.rdata") 
      
 # outcomes = c( 'prot-a-1868', 'prot-a-235', 'prot-a-1130', 'prot-a-1736', 'prot-a-1737')  
