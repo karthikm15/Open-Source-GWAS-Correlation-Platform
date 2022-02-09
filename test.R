@@ -19,6 +19,6 @@ r <- mr_moe(r, rf)
 # Now you can view the estimates, and see that they have 
 # been sorted in order from most likely to least likely to 
 # be accurate, based on MOE prediction
-r[[1]]$estimates
+r[[1]]$estimates 
  
  
