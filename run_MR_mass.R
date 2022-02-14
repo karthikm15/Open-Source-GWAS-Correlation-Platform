@@ -5,7 +5,7 @@ getwd()
 ao = available_outcomes()  
 # Load the downloaded RData object. This loads the rf object     
 load("./store/rf.rdata")    
-  
+   
 # outcomes = c( 'prot-a-1868', 'prot-a-235', 'prot-a-1130', 'prot-a-1736', 'prot-a-1737')     
 # exposures = c('prot-a-569', 'prot-a-532', 'prot-c-4500_50_2', 'prot-c-2475_1_3', 'prot-c-2966_65_2', 'prot-a-1652') 
 
