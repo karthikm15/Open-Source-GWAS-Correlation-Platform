@@ -22,7 +22,7 @@ for (exposure in exposures) {
     }
     if (file.exists(paste0("RES_MOE/",exposure,"_", outcome, ".csv"))){
       variants_harmonised = read.csv(paste0('RES_MOE/', exposure,"_", outcome, "_harmonised.csv"), stringsAsFactors=F)
-    } else {
+    } else { 
       variants_exposure = extract_instruments(exposure)
       print("HERE") 
       variants_outcome = extract_outcome_data(variants_exposure$SNP, outcome)
