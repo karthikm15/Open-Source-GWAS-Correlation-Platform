@@ -5,7 +5,7 @@ library(car)
 # Example of body mass index on coronary heart diseases
 # Extract and harmonise data 
 a <- extract_instruments(2)   
-b <- extract_outcome_data(a$SNP, 7)
+b <- extract_outcome_data(a$SNP, 7) 
 dat <- harmonise_data(a,b) 
  
 # Apply all MR methods
