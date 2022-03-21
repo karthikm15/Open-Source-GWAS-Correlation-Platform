@@ -1,4 +1,4 @@
-library(TwoSampleMR)
+library(TwoSampleMR) 
 ao = available_outcomes() 
 cancer_ids = c(
                'ieu-a-812', #Parkison's
