@@ -25,7 +25,7 @@ for (exposure in exposures) {
       variants_exposure = extract_instruments(exposure)
       print("HERE")
       variants_outcome = extract_outcome_data(variants_exposure$SNP, outcome)
-      if (is.null(variants_outcome)){
+      if (is.null(variants_outcome)){ 
         next 
       }
       variants_harmonised = harmonise_data(variants_exposure, variants_outcome)
