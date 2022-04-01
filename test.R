@@ -13,7 +13,7 @@ r <- mr_wrapper(dat)
 
 # Load the rf object containing the trained models
 load("rf.rdata")
-# Update the results with mixture of experts
+# Update the results with mixture of experts 
 r <- mr_moe(r, rf)
 
 # Now you can view the estimates, and see that they have 
